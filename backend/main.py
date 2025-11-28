@@ -1,3 +1,5 @@
+import sys
+sys.path.append("/opt/render/project/src/backend")
 import os
 import uuid
 from fastapi import FastAPI, UploadFile, File
